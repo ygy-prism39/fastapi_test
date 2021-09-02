@@ -13,10 +13,11 @@ app = FastAPI()
 ##########
 @app.get("/")
 async def read_root():
-    print(1)
-    results = await some_function('1')
-    print(2)
-    return results
+#    print(1)
+#    results = await some_function('1')
+#    print(2)
+#    return results
+    return "test"
 
 
 ################
